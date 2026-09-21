@@ -1,0 +1,1 @@
+select * from dbt_ecomm.dbt_sf.users

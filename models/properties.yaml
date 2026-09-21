@@ -1,0 +1,23 @@
+sources:
+  - name: "Teja_sources"
+    database: dbt_ecomm
+    schema: sc_ecomm
+    tables:
+      - name: users
+      - name : person_sales
+    
+
+models:
+    - name: "Teja3"
+      config: 
+        materialized : 'table'
+    - name: "Teja4"
+      config: 
+        materialized : 'view'
+    - name: "users_v2"
+      config: 
+        materialized : 'table'
+    - name: "users_v3"
+      config: 
+        materialized : 'view'
+    
